@@ -12,7 +12,7 @@ body{
     align-items: center;
     font-family: poppins, sans-serif;
 }
-#background{
+.container{
     overflow: hidden;
     position: relative;
     width: 400px;
@@ -106,8 +106,7 @@ p{
 
 @media (max-width: 500px){
     .container{
-        overflow: hidden;
         width: 100vw;
-        height: max-content;
+        height: 100vh
     }
 }
